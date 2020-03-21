@@ -728,6 +728,12 @@ width: 9.6em;
 	box-shadow:  10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+.container-producto{
+	height: 380px;
+	display: inline-grid;
+	padding-bottom: 6em;
+}
+
 .precio{
 	margin-left: 1em;
 	height: 1.3em;

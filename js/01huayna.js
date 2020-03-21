@@ -209,11 +209,11 @@ $(document).ready(function () {
 	//CATALOGO
 	if (window.location.href.indexOf('merchandising') > -1) {
 
-		var clase_producto = $('.productos')
+		var clase_producto = $('.productos');
 		$(".info_producto").hide();
 
-		for (let i = 1; i <= clase_producto.length; i++) {
-
+		for (let i = 1; i <= clase_producto.length+1; i++) {
+			
 			$("#producto" + i).hover(function () {
 				$("#info_producto" + i).show();
 			});
